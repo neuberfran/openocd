@@ -3353,6 +3353,7 @@ COMMAND_HANDLER(handle_wlink_reset_resume_command)
 {
 	
 	wlink_quitreset();
+	return ERROR_OK;
 }
 
 COMMAND_HANDLER(handle_resume_command)
